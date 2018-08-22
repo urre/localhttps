@@ -17,3 +17,7 @@
 `./run.sh` to start
 
 ![](https://res.cloudinary.com/urre/image/upload/v1534948050/z8jqmokd1l8hpkxzpmdg.png)
+
+
+### Notes
+The cert will work in Chrome and Safari. Firefox doesn't trust certs in macOS Keychain any longer, since it is using it's own Certificate Manger. Import certs in Tools > Options > Advanced > Certificates: View Certificates
