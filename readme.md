@@ -1,14 +1,18 @@
 # Self signed SSL cert for local development
 
-## What?
+## Setup
+
 + Create a self signed SSL cert on macOS
-+ Trust certificate in the macOS Keychain.
-+ Create a vhost in /etc/hosts (nicedomain.local in this example)
++ Trust the certificate in the macOS Keychain.
++ Add/remove a vhost in /etc/hosts (nicedomain.local in this example)
+
+`./setup.sh` to do everything above in order.
+
+## Run
+
 + Using docker-compose as a simple example
 + Using nginx-proxy for exposing both port 80 and 443 (optional)
 
-## Use
-
-Use the script `./run.sh` for running all the scripts, or individually.
+`./run.sh` to start docker-compose and nginx-proxy
 
 ![](https://res.cloudinary.com/urre/image/upload/v1534948050/z8jqmokd1l8hpkxzpmdg.png)
