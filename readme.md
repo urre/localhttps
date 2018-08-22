@@ -8,8 +8,9 @@
 
 `./setup.sh` to do everything above in order.
 
-## Run
+> __Note:__ Change to your own domain in `create-cert.sh` and `trust-cert.sh`
 
+## Run
 + Using docker-compose as a simple example
 + Using nginx-proxy for exposing both port 80 and 443 (optional)
 
