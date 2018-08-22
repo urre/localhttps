@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Create a self signed SSL cert on macOS
+1. Create a self signed SSL cert on macOS (stored in /certs)
 2. Trust the certificate in the macOS Keychain.
 3. Add/remove a vhost in /etc/hosts (nicedomain.local in this example)
 
