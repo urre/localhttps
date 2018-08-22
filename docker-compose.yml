@@ -1,0 +1,4 @@
+whoami:
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=nicedomain.local
