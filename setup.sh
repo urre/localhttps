@@ -16,11 +16,3 @@ NC='\033[0m'
 
 # Setup nicedomain.local in /etc/hosts
 ./setup-hosts-file.sh
-
-# Start docker-compose
-docker-compose up -d
-echo  -e ${GREEN}"Docker compose running ${NC}";
-
-# Run nginx-proxy letting the local domain work with https
-./run-nginx-proxy.sh
-echo  -e ${GREEN}"Open https://nicedomain.local in your browser! ${NC}";
