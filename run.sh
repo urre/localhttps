@@ -10,8 +10,5 @@ NC='\033[0m'
 
 # Start docker-compose
 docker-compose up -d
-echo  -e ${GREEN}"Docker compose running ${NC}";
-
-# Run nginx-proxy letting the local domain work with https
-./run-nginx-proxy.sh
+echo  -e ${GREEN}"Docker compose running... ${NC}";
 echo  -e ${GREEN}"Open https://nicedomain.local in your browser! ${NC}";

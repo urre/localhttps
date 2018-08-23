@@ -2,3 +2,12 @@ whoami:
     image: jwilder/whoami
     environment:
       - VIRTUAL_HOST=nicedomain.local
+nginx-proxy:
+  image: jwilder/nginx-proxy
+  restart: always
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - "./certs:/etc/nginx/certs"
+    - "/var/run/docker.sock:/tmp/docker.sock:ro"

@@ -11,10 +11,9 @@
 > __Note:__ Change to your own domain in `create-cert.sh` and `trust-cert.sh`
 
 ## Run
-+ Using docker-compose as a simple example
-+ Using nginx-proxy for exposing both port 80 and 443 (optional)
++ Using docker-compose as a simple example and nginx-proxy for exposing both port 80 and 443 (optional)
 
-`./run.sh` to start
+`docker-compose up` to start
 
 ![](https://res.cloudinary.com/urre/image/upload/v1534948050/z8jqmokd1l8hpkxzpmdg.png)
 
